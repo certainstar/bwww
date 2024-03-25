@@ -441,6 +441,11 @@ body {
     white-space: nowrap;
     display: none;
     font-family: a;
+    background: linear-gradient(to right, #ffcc00, #ff6699); /* 渐变背景 */
+    -webkit-background-clip: text; /* 将背景应用于文本 */
+    background-clip: text;
+    color: transparent; /* 隐藏文本原始颜色 */
+    font-weight: bold;
 }
 
 
@@ -788,13 +793,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
 .onoffswitch {
     position: relative;
     width: 38px;
@@ -840,6 +838,7 @@ footer {
     font-family: Trebuchet, Arial, sans-serif;
     font-weight: bold;
     box-sizing: border-box;
+    background:linear-gradient(to right, #ffcc00, #ff6699)
 }
 
 .onoffswitch-inner:before {
