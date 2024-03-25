@@ -79,7 +79,7 @@ img a {
 
 html[data-theme="Dark"] {
     --svgcolor: #ffffff;
-    --main-bg-color: rgb(0, 0, 0);
+    --main-bg-color: url(./img/background1.png);
     --main-text-color: #fff;
     --gradient-start: rgb(133, 62, 255);
     --gradient-middle: #f76cc6;
@@ -92,9 +92,9 @@ html[data-theme="Dark"] {
     --item-left-text-color: rgb(142, 142, 142);
     --footer-text-color: #646464;
     --left-tag-item: linear-gradient(50deg, #1f2327, #000000);
-    --card-filter: 0px;
+    --card-filter: 15px;
     --back-filter: 0px;
-    --back-filter-color: #00000000;
+    --back-filter-color: #00000030;
 }
 
 body {
